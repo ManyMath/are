@@ -2,7 +2,7 @@
 name = "are"
 version = "0.0.1"
 edition = "2021"
-description = "At-Rest Encryption oriented for Dart FFI."
+description = "At-Rest Encryption oriented for use by Dart."
 repository = "https://github.com/ManyMath/at-rest-encryption-rust"
 license = "MIT"
 
