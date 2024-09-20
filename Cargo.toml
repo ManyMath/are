@@ -1,0 +1,17 @@
+[package]
+name = "are"
+version = "0.0.1"
+edition = "2021"
+description = "At-Rest Encryption oriented for Dart FFI."
+repository = "https://github.com/ManyMath/at-rest-encryption-rust"
+license = "MIT"
+
+[[bin]]
+name = "are"
+path = "src/main.rs"
+
+[lib]
+name = "are"
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
